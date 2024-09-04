@@ -1,0 +1,43 @@
+
+
+
+.card{
+  box-shadow: 0 0 20px 1px black;
+  width: 40rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#EEEEEE;
+  transition: all 0.4s linear;
+  
+  &:hover{
+    transform: scale(1.05);
+  }
+  & .cardImg{
+    & img{
+      width: 100%;
+      border-radius: 2rem;
+    }
+  }
+  & .cardItem{
+    padding: 1.2rem;
+  }
+}
+
+.super_hit{
+  background-color: #73a373;
+
+}
+
+.hit{
+  background-color: #eaea92;
+  
+}
+
+.rating{
+  padding: 0.3rem 1.8rem;
+  color: black;
+  margin-left: 1.2rem;
+  border-radius: 100rem;
+}

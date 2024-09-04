@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid-two--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  & .main_heading{
+    font-size: 7.2rem;
+    padding: 2rem;
+  }
+}

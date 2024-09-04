@@ -1,0 +1,36 @@
+/* .toggle-switch{
+  width: 200px;
+  height: 100px;
+  background-color: #708a76;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 0 4px;
+  
+}
+.toggle_off {
+  transform: translateX(0);
+  background-color: #f43c3c;
+}
+.toggle_on  {
+  transform: translateX(100px);
+  background-color:aquamarine;
+}
+
+.switch{
+  width: 90px;
+  height: 90px;
+  background-color:aquamarine ;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #708a76;
+  transition: all 0.3s linear ;
+}
+
+.switch-state{
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.5px ;
+} */
